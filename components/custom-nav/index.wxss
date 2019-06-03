@@ -1,0 +1,21 @@
+.nav{
+  position: fixed;
+  left:0rpx;
+  top:0rpx;
+  width:100%;
+}
+.nav-title{
+  position:absolute;
+  left:0rpx;
+  top:0;
+  color:#000;
+  font-weight: 500;
+  font-size:34rpx;
+  width:100%;
+}
+.goback{
+  padding-left:23rpx;
+}
+.text{
+  padding-left:56rpx;
+}

@@ -1,0 +1,6 @@
+<view class="nav" style="height:{{height*2+20}}px;">
+  <view class="nav-title" style="line-height:{{height*2+44}}px;">
+    <text wx:if="{{showGoBack}}" decode="true" class="goback" bindtap="goback">&lt;</text>
+    <text wx:else class="text">{{title}}</text>
+  </view>
+</view>

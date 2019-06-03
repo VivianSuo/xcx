@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <nav title="{{navTitle}}" showGoBack="{{showGoBack}}"></nav> 
+  <view class="section">
+  <scroll-view scroll-y style="height:500px">
+    <image src="/img/banner.png"></image>
+    <view class="main-content">
+      <text>OPPO是深受年轻人喜爱的智能手机，拍照是其最主要的产品功能卖点之一。商汤科技利用人工智能手段，采用SensePhoto手机图像处理解决方案，为手机提供了人像拍照、双摄方案、人脸聚类相册等功能，帮助客户收获了来自全球20多个国家和地区的年轻用户的好评。</text>
+    </view>
+    <view class="latest-case">
+      <view class="latest-case-title">
+        <text>最新案例</text>
+      </view>
+      <view wx:for="{{list}}" wx:key="index" class="latest-case-item">
+        <view class="case-item">
+          <image src="{{item.ingUrl}}"></image>
+          <view class="case-content">
+            <view class="case-content-title">
+              <text>{{item.title}}</text>
+            </view>
+            <view class="case-content-value">
+              <text>{{item.value}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+    
+  </view>
+</view>

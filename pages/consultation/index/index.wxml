@@ -1,0 +1,4 @@
+<view class="container">
+  <nav title="{{navTitle}}" showGoBack="{{showGoBack}}"></nav> 
+    
+</view>

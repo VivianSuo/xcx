@@ -1,13 +1,52 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/index/index",
+    "pages/home/detail/index",
+    "pages/consultation/index/index",
+    "pages/consultation/detail/index",
+    "pages/products/index/index",
+    "pages/products/detail/index",
+    "pages/contactUs/index/index",
+    "pages/contactUs/edit/index",
+    "pages/contactUs/submit/index"
   ],
+  "tabBar": {
+    "custom":true,
+    "color": "#7F8389",
+    "selectedColor": "#3281FA",
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "text": "首页",
+        "iconPath":"/img/home.png",
+        "selectedIconPath":"/img/home_cur.png"
+      },
+      {
+        "pagePath": "pages/consultation/index/index",
+        "text": "产品资讯",
+        "iconPath": "img/consultation.png",
+        "selectedIconPath": "img/consultation_cur.png"
+      },
+      {
+        "pagePath": "pages/products/index/index",
+        "text": "产品中心",
+        "iconPath": "img/product.png",
+        "selectedIconPath": "img/product_cur.png"
+      },
+      {
+        "pagePath": "pages/contactUs/index/index",
+        "text": "联系我们",
+        "iconPath": "img/contact_us.png",
+        "selectedIconPath": "img/contact_us_cur.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "商汤SenseInsight客群洞察",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
   },
   "sitemapLocation": "sitemap.json"
 }
